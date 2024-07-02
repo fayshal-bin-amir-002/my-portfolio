@@ -1,13 +1,13 @@
+import NavBar from "./components/NavBar"
 
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
-
+      <div className="container mx-auto px-4">
+        <NavBar></NavBar>
+      </div>
     </>
   )
 }
