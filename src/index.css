@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .bg {
-    background-color: #0C1844;
+    background-color: black;
+    color: white;
 }
 
 .animate-gradient {
