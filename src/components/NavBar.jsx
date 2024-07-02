@@ -7,19 +7,19 @@ const NavBar = () => {
     const navLinks = [
         {
             title: "Home",
-            link: "home"
+            link: "#"
         },
         {
             title: "About",
-            link: "about"
+            link: "#about"
         },
         {
             title: "Skills",
-            link: "skills"
+            link: "#skills"
         },
         {
             title: "Projects",
-            link: "projects"
+            link: "#projects"
         },
     ]
 
@@ -29,7 +29,7 @@ const NavBar = () => {
             <div className="relative mx-auto w-full">
                 <nav
                     aria-label="main navigation"
-                    className="flex h-[5.5rem] w-full items-stretch justify-between font-medium text-white sticky top-0"
+                    className="flex h-[5.5rem] w-full items-stretch justify-between font-medium text-white"
                     role="navigation"
                 >
 
@@ -86,7 +86,7 @@ const NavBar = () => {
                             navLinks.map((item, i) => <a key={i}
                                 role="menuitem"
                                 aria-haspopup="false"
-
+                                href={item.link}
                                 className="flex text-lg items-center gap-2 py-2 lg:py-4 transition-colors duration-300 hover:text-[#A1DD70] focus:text-[#A1DD70] focus:outline-none focus-visible:outline-none bg-white text-black justify-center border border-black mb-1 rounded-lg lg:bg-transparent lg:text-white lg:border-none lg:mb-0"
                             >
                                 <span className="cursor-pointer">{item.title}</span>
