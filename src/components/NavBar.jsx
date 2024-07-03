@@ -21,12 +21,21 @@ const NavBar = () => {
             title: "Projects",
             link: "#projects"
         },
+        {
+            title: "Education",
+            link: "#education"
+        }
+        ,
+        {
+            title: "Contact",
+            link: "#contact"
+        },
     ]
 
     return (
 
-        <header className="border-b-1 relative z-20 w-full after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full lg:after:hidden">
-            <div className="relative mx-auto w-full">
+        <header className="border-b-1 relative z-20 w-full after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full lg:after:hidden sticky top-0">
+            <div className="relative mx-auto w-full backdrop-blur-sm">
                 <nav
                     aria-label="main navigation"
                     className="flex h-[5.5rem] w-full items-stretch justify-between font-medium text-white"
@@ -77,7 +86,7 @@ const NavBar = () => {
                     <ul
                         role="menubar"
                         aria-label="Select page"
-                        className={`absolute left-0 top-0 z-[-1]  w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:gap-16 lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
+                        className={`absolute left-0 top-0 z-[-1]  w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:gap-14 lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
                             ? "visible opacity-100 backdrop-blur-sm"
                             : "invisible opacity-0"
                             }`}
