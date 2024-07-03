@@ -2,25 +2,28 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import fbImg from "../../assets/fb.png";
 import linkdImg from "../../assets/ld.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 const Contact = () => {
     return (
         <div id="contact" className="my-12 md:my-16 lg:my-24">
-            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2">Contact Me</h2>
+            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2" data-aos="fade-down" data-aos-duration="500">Contact Me</h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center overflow-hidden">
                 <div className="w-full">
                     <div className="flex flex-col lg:flex-row lg:items-center justify-center gap-6 md:gap-8">
-                        <img src="/myImage.png" alt="" className="size-[280px] mx-auto lg:mx-0 rounded-full border-2 border-white object-cover bg-[#A1DD70]" />
+                        <img src="/myImage.png" alt="" className="size-[280px] mx-auto lg:mx-0 rounded-full border-2 border-white object-cover bg-[#A1DD70]" data-aos="zoom-in" data-aos-duration="1000" />
                         <div className="space-y-4">
-                            <a href="tel:+8801755288840" className="text-lg flex items-center"><FaPhoneSquareAlt className="inline mr-2" /><span className="font-medium opacity-80">+8801755288840</span></a>
-                            <a href="mailto:foyshalbinamir@gmail.com" className="text-lg flex items-center"><MdEmail className="inline mr-2" /><span className="font-medium opacity-80">foyshalbinamir@gmail.com</span></a>
+                            <a href="tel:+8801755288840" className="text-lg flex items-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"><FaPhoneSquareAlt className="inline mr-2" /><span className="font-medium opacity-80">+8801755288840</span></a>
+                            <a href="mailto:foyshalbinamir@gmail.com" className="text-lg flex items-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"><MdEmail className="inline mr-2" /><span className="font-medium opacity-80">foyshalbinamir@gmail.com</span></a>
                             <div className="flex items-center gap-4">
-                                <a href="https://www.facebook.com/foyshal.binamir.3" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.facebook.com/foyshal.binamir.3" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                                     <img src={fbImg} alt="" className="size-12" />
                                 </a>
-                                <a href="https://www.linkedin.com/in/fayshal-bin-amir" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/fayshal-bin-amir" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                                     <img src={linkdImg} alt="" className="size-12" />
                                 </a>
                             </div>

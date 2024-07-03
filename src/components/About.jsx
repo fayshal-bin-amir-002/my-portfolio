@@ -1,12 +1,15 @@
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { RiContactsBook3Line } from "react-icons/ri";
 import "./About.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const About = () => {
     return (
         <div>
             <div id="about" className="relative overflow-hidden my-12 md:my-16 lg:my-24">
-                <h2 className="text-center mb-12 border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl">About Me</h2>
+                <h2 className="text-center mb-12 border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl" data-aos="fade-down" data-aos-duration="500">About Me</h2>
                 <div className="w-full flex flex-col-reverse lg:flex-row  gap-8 lg:gap-16 items-center">
                     <div className="w-full lg:w-1/2">
                         <p className="opacity-80">
@@ -30,7 +33,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="flex-1">
-                        <div className="card">
+                        <div className="card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
                             <div className="imgbox">
                                 <div className="img"></div>
                             </div>

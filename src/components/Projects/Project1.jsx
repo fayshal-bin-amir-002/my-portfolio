@@ -1,10 +1,13 @@
 import "./Projects.css"
 import { FaGithub } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Project1 = () => {
     return (
-        <div className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white">
+        <div data-aos="flip-left" data-aos-duration="1500" data-aos-delay="200" className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white">
             <div className={`w-full h-96 bg1 text-gray-800`}>
             </div>
             <div className="absolute h-96 w-full bg-black -bottom-[315px] p-3 flex flex-col group-hover:-bottom-0 group-hover:duration-600 duration-500 text-white">

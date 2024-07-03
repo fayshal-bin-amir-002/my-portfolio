@@ -1,12 +1,16 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 const Education = () => {
     return (
         <div className="w-full" id="education">
-            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2">Education</h2>
+            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2" data-aos="fade-down" data-aos-duration="500">Education</h2>
 
             <div className="p-4">
                 <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
                     <div className="flex md:contents flex-row-reverse">
-                        <div
+                        <div data-aos="fade-down" data-aos-duration="1000"
                             className="relative lg:w-[450px] p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
                             <small>2019 - 2021</small>
                             <h3 className="text-lg font-semibold lg:text-xl">Higher Secondary School Certificate</h3>
@@ -29,7 +33,7 @@ const Education = () => {
                             </div>
                             <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-[#A1DD70] rounded-full top-1/2"></div>
                         </div>
-                        <div className="relative lg:w-[450px] p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" className="relative lg:w-[450px] p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
                             <small>2023 - Present</small>
                             <h3 className="text-lg font-semibold lg:text-xl">Bachelor of Science</h3>
                             <small>Computer Science and Engineering</small>
