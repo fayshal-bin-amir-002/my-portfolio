@@ -4,10 +4,10 @@ import { IoRocketOutline } from "react-icons/io5";
 
 const Project2 = () => {
     return (
-        <div data-aos="flip-up" data-aos-duration="2000" data-aos-delay="600" className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white overflow-x-scroll">
+        <div data-aos="flip-up" data-aos-duration="2000" data-aos-delay="600" className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white">
             <div className={`w-full h-96 bg2 text-gray-800`}>
             </div>
-            <div className="absolute h-96 w-full bg-black -bottom-[315px] p-3 flex flex-col group-hover:-bottom-0 group-hover:duration-600 duration-500 text-white overflow-y-scroll">
+            <div className="absolute h-96 w-full bg-black -bottom-[315px] p-3 flex flex-col group-hover:-bottom-0 group-hover:duration-600 duration-500 text-white">
                 <div className="h-full flex flex-col justify-between">
                     <div>
                         <span className="font-bold text-xl mb-1">Book Hut</span>
