@@ -4,7 +4,7 @@ import { IoRocketOutline } from "react-icons/io5";
 
 const Project3 = () => {
     return (
-        <div data-aos="flip-right" data-aos-duration="1500" data-aos-delay="200" className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white">
+        <div data-aos="flip-right" data-aos-duration="1500" data-aos-delay="400" className="relative group cursor-pointer group overflow-hidden text-gray-50 h-96 rounded-2xl hover:duration-700 duration-700 border border-white">
             <div className={`w-full h-96 bg3 text-gray-800`}>
             </div>
             <div className="absolute w-full bg-black -bottom-[315px] p-3 flex h-96 flex-col group-hover:-bottom-0 group-hover:duration-600 duration-500 text-white">
