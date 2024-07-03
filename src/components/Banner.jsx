@@ -11,7 +11,7 @@ const Banner = () => {
 
             <div className="banner h-[500px] lg:h-[700px] justify-center lg:justify-start">
                 <div className="banner-content">
-                    
+                    <h1 className="text-3xl lg:text-5xl font-semibold mb-3">Hello I&apos;m <span className="text-[#EE4E4E]">Fayshal</span></h1>
                     <div className="text-3xl lg:text-5xl font-semibold mb-5">
                         <h1 className="text-center">
                             I am a
