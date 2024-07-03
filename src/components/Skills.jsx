@@ -6,6 +6,8 @@ import reactImg from "../assets/icons8-react-native-480.png";
 import mongoImg from "../assets/icons8-mongodb-480.png";
 import nodeImg from "../assets/icons8-nodejs-480.png";
 import exImg from "../assets/icons8-express-js-480.png";
+import fbImg from "../assets/firebase.png";
+import jwtImg from "../assets/jwt.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -14,7 +16,7 @@ AOS.init();
 
 const Skills = () => {
 
-    const imgs = [htmlImg, cssImg, tailImg, jsImg, reactImg, mongoImg, nodeImg, exImg];
+    const imgs = [htmlImg, cssImg, tailImg, jsImg, reactImg, mongoImg, nodeImg, exImg, fbImg, jwtImg];
 
     return (
         <div className="mb-12 md:mb-16 lg:mb-24" id="skills">
