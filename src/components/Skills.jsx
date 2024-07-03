@@ -14,7 +14,7 @@ const Skills = () => {
 
     return (
         <div className="mb-12 md:mb-16 lg:mb-24" id="skills">
-            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl">My Skills</h2>
+            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2">My Skills</h2>
             <div className="flex justify-center items-center gap-6 lg:gal-8 flex-wrap">
                 {
                     imgs.map((img, i) => <div key={i} className="w-[100px] md:w-[150px] border-white border p-3 rounded-lg shadow-[#A1DD70] shadow-md hover:-translate-y-2 transition duration-300">

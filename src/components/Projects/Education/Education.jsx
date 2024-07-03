@@ -1,7 +1,7 @@
 const Education = () => {
     return (
         <div className="w-full" id="education">
-            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl">Education</h2>
+            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2">Education</h2>
 
             <div className="p-4">
                 <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">

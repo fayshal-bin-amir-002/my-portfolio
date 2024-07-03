@@ -1,6 +1,8 @@
 import { FaFacebookF } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -30,6 +32,9 @@ const Footer = () => {
                         </a>
                         <a href="https://www.linkedin.com/in/fayshal-bin-amir" target="_blank" className="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-[#A1DD70] hover:text-black">
                             <FaLinkedin />
+                        </a>
+                        <a href="https://github.com/fayshal-bin-amir-002" target="_blank" className="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-[#A1DD70] hover:text-black">
+                            <FaGithub />
                         </a>
                     </div>
                 </div>

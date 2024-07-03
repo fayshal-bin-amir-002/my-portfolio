@@ -7,9 +7,9 @@ import linkdImg from "../../assets/ld.png";
 const Contact = () => {
     return (
         <div id="contact" className="my-12 md:my-16 lg:my-24">
-            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl">Contact Me</h2>
+            <h2 className="text-center mb-12 md:mb-16 text-3xl tracking-tight font-extrabold  md:text-4xl border-b-2 border-[#A1DD70] max-w-max mx-auto pb-2">Contact Me</h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                 <div className="w-full">
                     <div className="flex flex-col lg:flex-row lg:items-center justify-center gap-6 md:gap-8">
                         <img src="/myImage.png" alt="" className="size-[280px] mx-auto lg:mx-0 rounded-full border-2 border-white object-cover bg-[#A1DD70]" />
