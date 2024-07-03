@@ -38,7 +38,7 @@ const NavBar = () => {
             <div className="relative mx-auto w-full backdrop-blur-sm">
                 <nav
                     aria-label="main navigation"
-                    className="flex h-[5.5rem] w-full items-stretch justify-between font-medium text-white"
+                    className="flex h-[3rem] lg:h-[5.5rem] w-full items-stretch justify-between font-medium text-white"
                     role="navigation"
                 >
 

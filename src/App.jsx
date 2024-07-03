@@ -1,6 +1,7 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
 import Contact from "./components/Contact/Contact"
+import Footer from "./components/Footer/Footer"
 import NavBar from "./components/NavBar"
 import Education from "./components/Projects/Education/Education"
 import Projects from "./components/Projects/Projects"
@@ -19,6 +20,7 @@ function App() {
         <Projects></Projects>
         <Education></Education>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
     </>
   )
