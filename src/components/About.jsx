@@ -19,7 +19,7 @@ const About = () => {
                             <div
                                 className="max-w-max bg-transparent items-center justify-center flex border-2 border-[#A1DD70] text-lg font-medium shadow-lg hover:bg-[#A1DD70] text-[#A1DD70] hover:text-black duration-300 cursor-pointer active:scale-[0.98]"
                             >
-                                <a href="/fayshal_cv.pdf" download="/fayshal_cv.pdf">
+                                <a href="/fayshal-resume.pdf" download="/fayshal-resume.pdf">
                                     <button className="px-5 py-2">Download Resume<FaCloudDownloadAlt className="inline ms-2" /></button>
                                 </a>
                             </div>
